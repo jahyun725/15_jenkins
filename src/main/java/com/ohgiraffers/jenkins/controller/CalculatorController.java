@@ -17,11 +17,10 @@ public class CalculatorController {
     private final CalculatorService calculatorService;
 
     @GetMapping("/health")
-    /*public String healthCheck() {
-        return "health check";
-    }*/
     public String healthCheck() {
-		return "jenkins pipe line test success";
+		//return "health check";
+		//return "jenkins pipe line test success";
+		return "argocd success";
 	}
 
     @GetMapping("/plus")
