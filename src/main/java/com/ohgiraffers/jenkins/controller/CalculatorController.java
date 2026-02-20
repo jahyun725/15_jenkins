@@ -20,7 +20,7 @@ public class CalculatorController {
     public String healthCheck() {
 		//return "health check";
 		//return "jenkins pipe line test success";
-		return "argocd success";
+		return "argoCD success";
 	}
 
     @GetMapping("/plus")
