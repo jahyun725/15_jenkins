@@ -17,9 +17,12 @@ public class CalculatorController {
     private final CalculatorService calculatorService;
 
     @GetMapping("/health")
-    public String healthCheck() {
+    /*public String healthCheck() {
         return "health check";
-    }
+    }*/
+    public String healthCheck() {
+		return "jenkins pipe line test success";
+	}
 
     @GetMapping("/plus")
     public ResponseEntity<CalculatorDto> plusTwoNumbers(CalculatorDto calculatorDto) {
